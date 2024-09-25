@@ -24,6 +24,20 @@ calculate $\sqrt{x+x^2}$
 calc) \df+:+*~:~:x
 ```
 
+# Help Page:
+
+```
+def:\d[fc]code  (vars: x y z)
+call:\c[fc] x y z
+CHAR  PRIMARY  SECONDARY (:)       ADVERBS
++      add      sqrt                  /    - continue until 1 element
+-      sub      neg
+%      div      mod
+*      mul      TBD
+~      swap     dup
+$      if       TBD
+```
+
 # Limitations:
 
 - Integers only no floats strings etc
